@@ -143,7 +143,6 @@ Even small shifts in data can degrade model performance, highlighting the need f
 ├── notebooks/
 │   └── diabetes_risk_prediction.ipynb
 ├── images/
-├── data/ (if applicable)
 ├── requirements.txt
 └── README.md
 ```
