@@ -128,9 +128,8 @@ Even small shifts in data can degrade model performance, highlighting the need f
 
 ## Technologies Used
 
-* Python
-* pandas, NumPy
-* scikit-learn
+* Python (pandas, NumPy)
+* scikit-learn, PyTorch
 * matplotlib, seaborn
 * CatBoost
 * Jupyter Notebook
@@ -143,7 +142,9 @@ Even small shifts in data can degrade model performance, highlighting the need f
 ├── notebooks/
 │   └── diabetes_risk_prediction.ipynb
 ├── images/
-├── data/ (if applicable)
+│   └── correlation_heatmap.png
+│   └── deployment_diagram.png
+│   └── model_comparison.png
 ├── requirements.txt
 └── README.md
 ```
@@ -174,8 +175,7 @@ Stephen Bannister
 
 ---
 
-## References
+## Key References
 
 * scikit-learn documentation
 * Relevant machine learning and healthcare modelling resources
-* references shown in notebook
